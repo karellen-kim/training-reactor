@@ -6,6 +6,9 @@ import reactor.core.publisher.Mono
 import java.lang.Thread.sleep
 import java.time.Duration
 
+/* CacheMono는 deprecated
+  https://github.com/reactor/reactor-addons/issues/237
+ */
 class CacheTest {
 
     private val logger = LoggerFactory.getLogger(javaClass)
